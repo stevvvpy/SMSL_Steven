@@ -86,7 +86,7 @@ def encode_feature(df):
   df.drop('Ethnicity', axis=1, inplace=True)
   return df 
 
-def preprocess(df = pd.read_csv('Eksperimen_SML_Steven/Student_performance_data_raw/Student_performance_data_raw.csv')):
+def preprocess(df = pd.read_csv('Student_performance_data_raw/Student_performance_data_raw.csv')):
   try:
     df = drop_duplicate(df)
   except:
@@ -118,7 +118,7 @@ def preprocess(df = pd.read_csv('Eksperimen_SML_Steven/Student_performance_data_
     pass
   
 
-  df.to_csv('Eksperimen_SML_Steven/preprocessing/Student_performance_dataset_preprocessing/cleaned_data.csv', index=False)
+  df.to_csv('preprocessing/Student_performance_dataset_preprocessing/cleaned_data.csv', index=False)
   print("Preprocessing selesai!")
 
 if __name__ == '__main__':
