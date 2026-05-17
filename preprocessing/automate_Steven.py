@@ -10,7 +10,7 @@ def handle_missing_values(df):
 
   '''
    Menangani kolom Age, ParentalSupport dan GPA dengan nilai rata-rata
-   Menangani kolom Ethnicity kosong menjadi others
+   Menangani kolom Ethnicity kosong menjadi others (lainnya)
    Menangani kolom ParantalEducation kosong menjadi frekuensi tertinggi
    Menangani kolom StudyTimeWeekly dengan nilai 0 dengan asumsi bahwa tidak pernah belajar sehingga tidak mengisinya
    Menangani kolom Absences dengan nilai 0 dengan asumsi bahwa tidak pernah hadir sehingga tidak diabsen
